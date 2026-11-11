@@ -1,18 +1,22 @@
 {
-    "name": "dram1008/kapitalov",
-    "description": "kapitalov.org",
-    "keywords": ["kapitalov"],
-    "homepage": "https://www.kapitalov.org/",
+    "name": "CAPITALOV/chartflow",
+    "description": "ChartFlow - сервис построения графиков и финансовых инструментов (rus.chartflow.ru)",
+    "keywords": ["chartflow", "yii2", "charts", "finance"],
+    "homepage": "https://rus.chartflow.ru/",
     "type": "project",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "support": {
-        "source": "https://github.com/dram1008/capitalov"
+        "source": "https://github.com/CAPITALOV/chartflow-php84-fixed-2026"
     },
     "authors": [
         {
+            "name": "Kapitalov",
+            "role": "maintainer"
+        },
+        {
             "name": "Dmitriy Mukhortov",
             "email": "god@galaxysss.ru",
-            "role": "developer"
+            "role": "original developer"
         }
     ],
     "autoload": {
@@ -150,7 +154,7 @@
         "isocra/TableDnD": "*",
         "amcharts/amstock3": "*",
         "ecomfe/echarts": "*",
-        "minhur/bootstrap-toggle":"*",
+        "minhur/bootstrap-toggle": "*",
         "mobiledetect/mobiledetectlib": "*"
     },
     "require-dev": {
