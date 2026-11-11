@@ -1,0 +1,57 @@
+<?php
+
+$this->title = 'Услуги компании, тарифы и пользовательское соглашение';
+?>
+<h1 class="page-header">Услуги компании, тарифы и пользовательское соглашение</h1>
+
+<div class="row">
+    <div class="col-12">
+        <p>
+		Система (AI) аккумулирует в себе прогнозы и рекомендации по ценным бумагам в виде временного графика с датами разворота тренда эмитента компании.
+            Система Kapitalov применяется во многих сферах информационного бизнеса. Система прошла тестовые испытания и показала высокий уровень результативности c 2000 года.
+            Используется трейдерами, аналитиками, кризис менеджерами, банкирами, финансистами, инвесторами, владельцами бизнесов, СМИ и людьми следящими за рынком.
+	  <p>
+		«Прогнозирование трендов KAPITALOV является основным ориентиром для мира, в условиях высокой неопределённости».
+	  </p>            
+		Сервис доступен круглосуточно. Для заказа выберите эмитента из списка по тикеру и биржи, закажите у нас его анализ и прогноз тренда, и оплатите услугу удобным способом оплаты.
+            SymbolName | StockExchange | StockExchange (MIC) | Country
+	  </p>
+            Данные о фондовом рынке, предоставляемые API marketstack, лицензированы и получены от нескольких авторитетных поставщиков рыночных данных по всему миру. Данные по фондовому рынку от бирж Соединенных Штатов лицензированы и получены от Tiingo, Inc. из Нью-Йорка, США, а так же TradingView Inc.
+	  </p>	  
+		<a href="https://www.theice.com/solutions/data">Select market data provided by ICE Data Services</a>
+	  </p> 
+		<a href="https://www.tradingview.com/about/">TradingView.com</a> 
+        </p>
+            <a href="https://marketstack.com/search">Stock Tickers & Exchanges</a>
+        </p>    
+            Search 125,000+ stock ticker symbols from 72 exchanges supported</a>
+        </p>
+            <a href="https://status.marketstack.com/">Service status</a>
+        </p>
+            Статус обслуживания
+        </p>
+        Оплата подписки для Физических и Юридических лиц, осуществляется через платежную систему на счет фирмы: Kapitalov LLC. (оплата за каждую подписку ежемесячно).
+        Стоимость подписки на сайте для клиента физическое лицо: 
+        </p>
+1. ООО «Капиталов» информирует своих клиентов о том, что мы не принимаем и не совершаем сделки в интересах самого клиента. Компания совершает сделки только для себя и на свои средства, не привлекая их со стороны.
+</p>
+2. Публикуемые отчеты по торговым операциям носят ознакомительный характер с целью демонстрации возможности информационного сервиса компании в ознакомительных целях для сравнения с самостоятельными торгами клиента.
+    </div>
+    <!-- <div class="col-lg-4">
+        <img class="img-responsive img-thumbnail" src="/images/index/cabinet.gif" alt="">
+    </div> -->
+</div>
+<!-- <div class="row">
+    <div class="col-lg-4 col-lg-offset-4">
+        <?php //if (Yii::$app->user->isGuest) { ?>
+            <a class="btn btn-primary btn-lg" href="<?php //= \yii\helpers\Url::to(['auth/login']) ?>" style="width: 100%;background-color: #aa719f;border: none;border-radius: 24px;">Войти в систему</a>
+        <?php //} else { ?>
+            <a class="btn btn-primary btn-lg" href="<?php //= \yii\helpers\Url::to(['cabinet/index']) ?>" style="width: 100%;background-color: #aa719f;border: none;border-radius: 24px;">Войти в систему</a>
+        <?php // } ?>
+    </div>
+<br>
+</font><a href="https://kapitalov.online/include/licenses_detail.php">
+<font color="#808080">/ СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ</font></a><font color="#808080">
+</b><br>
+</div>
+ -->

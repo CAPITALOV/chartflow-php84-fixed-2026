@@ -1,0 +1,181 @@
+{
+    "name": "dram1008/kapitalov",
+    "description": "kapitalov.org",
+    "keywords": ["kapitalov"],
+    "homepage": "https://www.kapitalov.org/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/dram1008/capitalov"
+    },
+    "authors": [
+        {
+            "name": "Dmitriy Mukhortov",
+            "email": "god@galaxysss.ru",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "cs\\": "app"
+        }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "minhur/bootstrap-toggle",
+                "version": "1.0.1",
+                "source": {
+                    "url": "https://github.com/minhur/bootstrap-toggle",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "amcharts/amstock3",
+                "version": "1.0.1",
+                "source": {
+                    "url": "https://github.com/amcharts/amstock3",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ecomfe/echarts",
+                "version": "1.0.1",
+                "source": {
+                    "url": "https://github.com/ecomfe/echarts",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "mistic100/Bootstrap-Confirmation",
+                "version": "1.0.1",
+                "source": {
+                    "url": "https://github.com/mistic100/Bootstrap-Confirmation",
+                    "type": "git",
+                    "reference": "v2"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "vlucas/valitron",
+                "version": "1.0.1",
+                "source": {
+                    "url": "https://github.com/vlucas/valitron",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ExactTarget/fuelux",
+                "version": "1.0.1",
+                "source": {
+                    "url": "https://github.com/ExactTarget/fuelux",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "nnnick/Chart.js",
+                "version": "1.0.1",
+                "source": {
+                    "url": "https://github.com/nnnick/Chart.js",
+                    "type": "git",
+                    "reference": "02f858b264de6c6c1af0579b05b7b5913d0d61ef"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "Surzhikov/TelegramSiteHelper",
+                "version": "1.0.1",
+                "source": {
+                    "url": "https://github.com/Surzhikov/TelegramSiteHelper",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "isocra/TableDnD",
+                "version": "1.0.1",
+                "source": {
+                    "url": "https://github.com/isocra/TableDnD",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-apidoc": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-authclient": "*",
+        "yiisoft/yii2-jui": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "yiisoft/yii2-imagine": "~2.0.0",
+        "yiisoft/yii2-smarty": "*",
+        "mistic100/Bootstrap-Confirmation": "*",
+        "ExactTarget/fuelux": "*",
+        "vlucas/valitron": "*",
+        "Surzhikov/TelegramSiteHelper": "*",
+        "yandex-money/yandex-money-sdk-php": "3.0.*",
+        "nnnick/Chart.js": "1.0.1",
+        "isocra/TableDnD": "*",
+        "amcharts/amstock3": "*",
+        "ecomfe/echarts": "*",
+        "minhur/bootstrap-toggle":"*",
+        "mobiledetect/mobiledetectlib": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*",
+        "fxp/composer-asset-plugin": "~1.0",
+        "yiisoft/yii2-apidoc": "~2.0.0"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "yii\\composer\\Installer::postCreateProject": {
+            "setPermission": [
+                {
+                    "runtime": "0777",
+                    "web/assets": "0777",
+                    "yii": "0755"
+                }
+            ],
+            "generateCookieValidationKey": [
+                "config/web.php"
+            ]
+        }
+    }
+}

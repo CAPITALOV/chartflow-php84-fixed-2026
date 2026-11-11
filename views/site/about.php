@@ -1,0 +1,29 @@
+<?php
+$this->title = 'RUS.chartflow.ru';
+?>
+<h1 class="page-header">AI rus.chartflow.ru</h1>
+  </p>	  
+		<a href="https://chartflow.ru">Сайт компании AI chartflow.ru</a>
+	  </p>
+<div class="row">
+    <div class="col-12">
+        <p>
+            <li>Технология прогнозирования на базе Искусственного машинного интеллекта (AI) chartflow.ru</li>
+            <li>Вычислительный центр нейросетевого прогнозирования трендов финансовых индексов</li>
+          </ul>
+</p>
+Для НЕ РЕЗИДЕНТОВ Юридических и Физических лиц на валютный счет в банке России по выставленному счету ООО "КАПИТАЛОВ".
+</p>
+        </div>
+    <!-- <div class="col-lg-4">
+        <img class="img-responsive img-thumbnail" src="/images/index/cabinet.gif" alt="">
+    </div> -->
+</div>
+<!-- <div class="row">
+    <div class="col-lg-4 col-lg-offset-4">
+        <?php // if (Yii::$app->user->isGuest) { ?>
+            <a class="btn btn-primary btn-lg" href="<?php //= \yii\helpers\Url::to(['auth/login']) ?>" style="width: 100%;background-color: #aa719f;border: none;border-radius: 24px;">Войти в систему</a>
+        <?php //} else { ?>
+            <a class="btn btn-primary btn-lg" href="<?php //= \yii\helpers\Url::to(['cabinet/index']) ?>" style="width: 100%;background-color: #aa719f;border: none;border-radius: 24px;">Войти в систему</a>
+        <?php //} ?>
+    </div>
