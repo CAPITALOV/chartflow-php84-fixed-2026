@@ -42,4 +42,5 @@ webstat
 ./webstat
 
 public_html/webstat
-./public_html/webstat
+./public_html/webstatconfig/telegram.php
+config/mailerTransport.php
