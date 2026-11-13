@@ -13,3 +13,5 @@ public_html/webstat/
 public_html/cgi-bin/
 public_html/composer.lock
 config/db.php
+config/authClientCollection.php
+config/authClientCollection.php
